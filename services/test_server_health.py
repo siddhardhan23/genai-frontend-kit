@@ -1,6 +1,6 @@
 import requests
 from utils.config import app_config
-from utils.logger import logger  # ✅ Import the logger
+from utils.logger import logger
 
 base_url = app_config["api_url"]
 
